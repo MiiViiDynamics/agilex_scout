@@ -1,0 +1,24 @@
+<package format="2">
+  <name>agilex_scout</name>
+  <version>0.0.1</version>
+  <description>
+    ros node of agilex scout chassis.
+  </description>
+  <author>GD Wang</author>
+  <maintainer email="gdwang@miivii.com">GD Wang</maintainer>
+  <license>BSD</license>
+  <url>https://</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+
+  <depend>roscpp</depend>
+  <depend>tf</depend>
+  <depend>rosgraph_msgs</depend>
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+  <depend>nav_msgs</depend>
+
+  <test_depend>rostest</test_depend>
+</package>
